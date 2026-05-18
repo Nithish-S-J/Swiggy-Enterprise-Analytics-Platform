@@ -1,0 +1,94 @@
+# Dataset: Ecommerce_Delivery_Analytics_New.csv
+
+## Business Purpose
+This dataset represents transactional e-commerce delivery operations across platforms such as Blinkit and JioMart. It is primarily used for revenue analytics, customer behavior analysis, delivery performance monitoring, and operational KPI reporting.
+
+---
+
+## Dataset Category
+Transactional / Operational Dataset
+
+---
+
+## Key Business Entities
+- Orders
+- Customers
+- Delivery Operations
+- Platforms
+- Product Categories
+
+---
+
+## Key Columns
+
+| Column Name | Description |
+|---|---|
+| Order ID | Unique identifier for each order |
+| Customer ID | Unique customer identifier |
+| Platform | Delivery platform (Blinkit, JioMart, etc.) |
+| Order Date & Time | Timestamp of order placement |
+| Delivery Time (Minutes) | Delivery duration |
+| Product Category | Ordered product category |
+| Order Value (INR) | Revenue generated per order |
+| Customer Feedback | Customer review/comments |
+| Service Rating | Customer satisfaction rating |
+| Delivery Delay | Indicates delayed delivery |
+| Refund Requested | Indicates refund request |
+
+---
+
+## Potential KPIs
+- Total Revenue
+- Total Orders
+- Average Order Value
+- Average Delivery Time
+- Late Delivery Percentage
+- Refund Request Percentage
+- Customer Satisfaction Score
+- Orders by Platform
+- Orders by Product Category
+
+---
+
+## Business Use Cases
+- Revenue trend analysis
+- Delivery SLA monitoring
+- Customer satisfaction tracking
+- Refund analysis
+- Platform performance comparison
+- Product category analysis
+
+---
+
+## Expected Target Tables
+
+### Fact Tables
+- fact_orders
+- fact_deliveries
+- fact_payments
+
+### Dimension Tables
+- dim_customer
+- dim_date
+- dim_platform
+- dim_product_category
+
+---
+
+## Data Quality Observations
+- Check for duplicate Order IDs
+- Validate negative or zero order values
+- Standardize platform naming conventions
+- Validate delivery time values
+- Check missing customer feedback values
+- Validate service rating range consistency
+
+---
+
+## Transformation Requirements
+- Convert order timestamp formats
+- Standardize text fields
+- Create delivery SLA flags
+- Create revenue metrics
+- Derive date hierarchy columns
+- Create calculated business KPIs

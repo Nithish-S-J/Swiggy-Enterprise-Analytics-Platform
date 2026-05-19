@@ -1,0 +1,50 @@
+# Dataset: silver_deliveries
+
+## Silver Layer Purpose
+Validated delivery operations dataset for logistics intelligence and SLA performance monitoring.
+
+---
+
+## Cleaning Rules
+
+| Column | Cleaning Logic |
+|---|---|
+| Delivery_person_ID | Remove null values |
+| Delivery_person_Ratings | Validate rating range |
+| Vehicle Type | Standardize categories |
+| Latitude/Longitude | Validate coordinate ranges |
+| Time_taken(min) | Remove unrealistic durations |
+
+---
+
+## Validation Framework
+
+| Validation Category | Rule |
+|---|---|
+| Delivery Validation | Delivery time must be positive |
+| Coordinate Validation | Latitude/Longitude valid |
+| Rating Validation | Ratings between 1–5 |
+| Vehicle Validation | Approved vehicle categories only |
+| Duplicate Validation | Delivery IDs unique |
+
+---
+
+## Transformation Logic
+
+| Transformation | Purpose |
+|---|---|
+| Create SLA breach flag | SLA reporting |
+| Create delivery performance bands | Operational KPIs |
+| Categorize delivery times | Trend analysis |
+| Standardize vehicle categories | Reporting consistency |
+
+---
+
+## Business Mapping
+
+| Business Area | Usage |
+|---|---|
+| Delivery Operations | SLA monitoring |
+| Logistics Intelligence | Rider performance |
+| Operational Analytics | Delivery efficiency |
+| Executive Reporting | KPI dashboards |

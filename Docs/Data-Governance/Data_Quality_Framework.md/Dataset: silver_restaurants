@@ -1,0 +1,49 @@
+# Dataset: silver_restaurants
+
+## Silver Layer Purpose
+Standardized restaurant master dataset used for restaurant intelligence and regional analytics.
+
+---
+
+## Cleaning Rules
+
+| Column | Cleaning Logic |
+|---|---|
+| Restaurant | Remove duplicate names |
+| City | Standardize city names |
+| Food type | Standardize cuisine categories |
+| Avg ratings | Validate rating range |
+| Delivery time | Validate delivery duration |
+
+---
+
+## Validation Framework
+
+| Validation Category | Rule |
+|---|---|
+| Rating Validation | Ratings between 1–5 |
+| City Validation | Valid city names only |
+| Delivery Validation | Delivery time > 0 |
+| Duplicate Validation | Restaurant IDs unique |
+
+---
+
+## Transformation Logic
+
+| Transformation | Purpose |
+|---|---|
+| Create cuisine hierarchy | Food analytics |
+| Create pricing bands | Pricing intelligence |
+| Create restaurant segments | Business reporting |
+| Create rating categories | Restaurant KPIs |
+
+---
+
+## Business Mapping
+
+| Business Area | Usage |
+|---|---|
+| Restaurant Analytics | Performance reporting |
+| Regional Analytics | City analysis |
+| Cuisine Analytics | Food trend analysis |
+| Executive Reporting | KPI dashboards |

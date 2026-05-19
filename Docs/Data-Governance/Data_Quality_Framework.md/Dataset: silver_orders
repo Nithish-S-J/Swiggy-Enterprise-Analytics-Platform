@@ -1,0 +1,53 @@
+# Dataset: silver_orders
+
+## Silver Layer Purpose
+Cleansed and validated transactional order dataset for revenue analytics and customer behavior reporting.
+
+---
+
+## Cleaning Rules
+
+| Column | Cleaning Logic |
+|---|---|
+| Order ID | Remove duplicate records |
+| Customer ID | Remove null customer IDs |
+| Platform | Standardize platform names |
+| Order Value (INR) | Remove negative values |
+| Delivery Time | Remove invalid delivery durations |
+| Service Rating | Validate rating range (1–5) |
+| Customer Feedback | Trim text formatting |
+
+---
+
+## Validation Framework
+
+| Validation Category | Rule |
+|---|---|
+| Duplicate Validation | Order ID must be unique |
+| Revenue Validation | Order Value > 0 |
+| Rating Validation | Ratings between 1 and 5 |
+| SLA Validation | Delivery Time > 0 |
+| Null Validation | Customer ID mandatory |
+
+---
+
+## Transformation Logic
+
+| Transformation | Purpose |
+|---|---|
+| Convert timestamps | Time intelligence |
+| Create SLA flag | Delayed delivery analysis |
+| Create revenue bands | Revenue segmentation |
+| Create order categories | Business reporting |
+| Derive order date hierarchy | Trend analysis |
+
+---
+
+## Business Mapping
+
+| Business Area | Usage |
+|---|---|
+| Revenue Analytics | Sales reporting |
+| Customer Analytics | Customer behavior |
+| Delivery Operations | SLA monitoring |
+| Executive Reporting | KPI dashboards |

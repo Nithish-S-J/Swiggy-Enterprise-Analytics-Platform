@@ -1,0 +1,11 @@
+CREATE TABLE dim_delivery AS
+
+SELECT DISTINCT
+
+    delivery_person_id,
+    delivery_person_age,
+    delivery_person_rating,
+    vehicle_type,
+    delivery_partner_performance
+
+FROM silver_deliveries;

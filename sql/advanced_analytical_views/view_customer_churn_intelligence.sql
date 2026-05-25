@@ -1,3 +1,8 @@
+------The Growth Marketing team needs to track Customer Lifetime Value (CLV) and flag frequency decay
+------before a user churns. Static dates fail here. We need a dynamic calculation tracking time
+-------since a user's last order compared to their historic purchasing frequency.---
+
+
 CREATE OR ALTER VIEW dbo.view_customer_churn_intelligence AS
 WITH OrderIntervals AS (
     SELECT 

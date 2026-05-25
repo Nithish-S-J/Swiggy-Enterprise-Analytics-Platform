@@ -1,28 +1,27 @@
-CREATE TABLE dim_restaurants
-AS
+DROP TABLE IF EXISTS dbo.dim_restaurants;
+GO
 
-SELECT
+CREATE TABLE dbo.dim_restaurants (
+    restaurant_id INT NOT NULL,
+    restaurant_name VARCHAR(255) NOT NULL,
+    cuisine_types VARCHAR(255),
+    average_rating DECIMAL(3,2),
+    restaurant_rating_category VARCHAR(50),
+    total_ratings INT,
+    price_tier INT,
+    cost_category VARCHAR(50)
+);
+GO
 
+INSERT INTO dbo.dim_restaurants
+SELECT 
     restaurant_id,
     restaurant_name,
-    city,
-    area,
     cuisine_types,
-
     average_rating,
     restaurant_rating_category,
-
     total_ratings,
-
     price,
-    cost_category,
-
-    estimated_delivery_time_minutes,
-
-    CASE
-        WHEN average_rating >= 4.5 THEN 'Top Performer'
-        WHEN average_rating >= 4 THEN 'Strong Performer'
-        ELSE 'Average Performer'
-    END AS restaurant_performance_segment
-
-FROM silver_restaurants;
+    cost_category
+FROM dbo.silver_restaurants;
+GO

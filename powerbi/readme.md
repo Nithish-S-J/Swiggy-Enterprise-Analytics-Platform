@@ -1,7 +1,7 @@
 # Power BI Report Pages
 
 
-# scemantic_model
+# semantic_model
 
 
 ![model](https://github.com/Nithish-S-J/Swiggy-Enterprise-Analytics-Platform/blob/main/fabric/scemantic_model/new_scemantic_model.png)

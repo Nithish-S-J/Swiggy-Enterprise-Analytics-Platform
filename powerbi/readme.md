@@ -1,5 +1,13 @@
 # Power BI Report Pages
 
+
+# scemantic_model
+
+## scemantice_model_preview
+![model](https://github.com/Nithish-S-J/Swiggy-Enterprise-Analytics-Platform/blob/main/fabric/scemantic_model/new_scemantic_model.png)
+
+
+
 ## Home
 ![Home](https://github.com/Nithish-S-J/Swiggy-Enterprise-Analytics-Platform/blob/main/powerbi/Screenshots/00_Home.png)
 
@@ -21,9 +29,4 @@
 ## Geographic Insights
 ![Geographic Insights](https://github.com/Nithish-S-J/Swiggy-Enterprise-Analytics-Platform/blob/main/powerbi/Screenshots/06_Geographic_insights.png)
 
-
-# scemantic_model
-
-## scemantice_model_preview
-![model](https://github.com/Nithish-S-J/Swiggy-Enterprise-Analytics-Platform/blob/main/fabric/scemantic_model/new_scemantic_model.png)
 

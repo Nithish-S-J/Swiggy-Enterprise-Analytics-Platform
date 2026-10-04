@@ -18,7 +18,7 @@ The platform enables stakeholders to:
 - Understand geographic performance across cities
 - Support data-driven business decisions
 
-![Project_Preview](https://github.com/Nithish-S-J/Swiggy-Enterprise-Analytics-Platform/blob/main/Docs/Project%20Architecture/Swiggy_Enterprise_Business_Requirements.png)
+![Project_Preview](https://github.com/Nithish-S-J/Swiggy-Enterprise-Analytics-Platform/blob/main/Docs/Project%20Architecture/Swiggy%20Enterprise%20Analytics%20Pipeline.png)
 ```
 Enterprise-Marketplace-Intelligence-Platform
 │

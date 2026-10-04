@@ -5,6 +5,11 @@ The Swiggy Enterprise Analytics Platform is an end-to-end Business Intelligence 
 
 Built using Microsoft Fabric, Lakehouse, SQL Warehouse, Semantic Models, and Power BI, the platform follows a modern Medallion Architecture (Bronze, Silver, Gold) to support enterprise-grade reporting, KPI monitoring, and executive decision-making.
 
+
+
+![Project_Preview](https://github.com/Nithish-S-J/Swiggy-Enterprise-Analytics-Platform/blob/main/Docs/Project%20Architecture/Swiggy%20Enterprise%20Analytics%20Pipeline.png)
+
+
 ## Business Objective
 
 The objective of this platform is to provide a unified view of business performance by integrating transactional, operational, and restaurant intelligence datasets into a centralized analytics ecosystem.
@@ -18,7 +23,6 @@ The platform enables stakeholders to:
 - Understand geographic performance across cities
 - Support data-driven business decisions
 
-![Project_Preview](https://github.com/Nithish-S-J/Swiggy-Enterprise-Analytics-Platform/blob/main/Docs/Project%20Architecture/Swiggy%20Enterprise%20Analytics%20Pipeline.png)
 ```
 Enterprise-Marketplace-Intelligence-Platform
 │
